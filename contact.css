@@ -30,6 +30,12 @@ nav a {
     font-weight: bold;
 }
 
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 main {
     padding: 20px;
 }
