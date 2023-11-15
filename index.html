@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title> Contact Us - Your Luxury Indian Clothing Rental </title>
+    <link rel="stylesheet" href="contact.css" >
+</head>
+<body>
+    
+    <header>
+        <h1> Your Luxury Indian Clothing Rental</h1>
+        <!-- add the logo and/or additional header content here -->
+        <nav>
+            <ul>
+                <li> <a href="index.html" > Home </a></li>
+                <li> <a href="catalog.html" > Catalog </a></li>
+                <li> <a href="rental.html" > Rental Information </a></li>
+                <li class="current" ><a href="contact.html" > Contact Us </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="Contact-form" >
+            <h2> Contact Us </h2>
+            <form action="submit_form.php" method="post" >
+                <lable for="name" > Name: </lable>
+                <input type="text" id="name" name="name" required>
+                
+                <lable for="email" > Email: </lable>
+                <input type="email" id="email" name="email" required>
+                
+                <lable for="message" > Message: </lable>
+                <textarea id="message" name="message" row="4" required> </textarea>
+                
+                <button type="submit" > Submit </button>
+            </form>
+        </section>
+    
+        <section class="contact-info" >
+            <h2> Contact Information </h2>
+            <p> Email: info@enteremailaddress.com</p>
+            <p> Phone: +1 (123) 456-7890 </p>
+            <p> Address: 123 Main Street, New York City, New York </p>
+        </section>
+    </main>
+    
+    <footer>
+        <p> &copy; 2023 Your Luxury Indian Clothing Rental. All rights reserved.</p>
+    </footer>
+    
+    </body>
+</html>
+    
