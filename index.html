@@ -1,76 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title> Contact Us - Your Luxury Indian Clothing Rental </title>
-    <link rel="stylesheet" href="contact.css" >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rental's Almari </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4e54cb7dcb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="homepagestyles.css">
 </head>
 <body>
-    
-    <header>
-        <h1> Your Luxury Indian Clothing Rental</h1>
-        <!-- add the logo and/or additional header content here -->
-        <nav>
-            <ul>
-                <li> <a href="index.html" > Home </a></li>
-                <li> <a href="newcatalog.html" > New </a></li>
-                <li> <a href="womencatalog.html" > Women </a></li>
-                <li> <a href="Designercatalog.html" > Designer </a> </li>
-                <li> <a href="lehengascatalog.html" > Lehengas </a></li>
-                <li> <a href="sareecatalog.html" > Saree </a></li>
-                <li> <a href="anarkalicatalog.html" > Anarkali </a></li>
-                <li> <a href="kurtasetcatalog.html" > Kurta Sets </a></li>
-                <li class="current" ><a href="contact.html" > Contact Us </a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <div class="banner">
-        <img src="banner-image-contact-us-page.jpeg" alt="Luxury Clothing Banner">
+<!--- 1st Nav -->
+    
+    <div>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container">
+                <div class="w-100 d-flex justify-content-between">
+                    <div>
+                        <i class="fa-regular fa-envelope text-light contact-info"></i>
+                        <a href="" class="navbar-sm-brand text-light text-decoration-none contact-info">info@rentalsalmari.com</a>
+                        <i class="fa-solid fa-phone contact-info text-light"></i>
+                        <a href="" class="navbar-sm-brand text-white text-decoration-none contact-info">123-456-7890</a>
+                    </div>
+                    <div>
+                        <a href="" class="text-white"><i class="fa-brands fa-facebook me-2"></i></a>
+                        <a href="" class="text-white"><i class="fa-brands fa-instagram me-2"></i></a>
+                        <a href="" class="text-white"><i class="fa-brands fa-linkedin me-2"></i></a>
+                        <a href="" class="text-white"><i class="fa-brands fa-twitter me-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div> 
+<!-- 1st Nav end -->
+    
+<!-- Main Nav -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container d-flex justify-content-between">
+            <div>
+                <h1>Rental's Almari</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item nav-items">
+                                <a class="nav-link nav-links" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown nav-items">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Womens.html">Womenswear</a></li>
+                                    <li><a class="dropdown-item" href="mens.html">Menswear</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item nav-items">
+                                <a class="nav-link nav-links" href="trialboth.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item nav-items">
+                                <a class="nav-link nav-links" href="#">Renting Information </a>
+                            </li>
+                        </ul>
+                        <div>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-solid fa-magnifying-glass nav-icon"></i></a>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-solid fa-cart-shopping nav-icon"></i></a>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-solid fa-user nav-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </nav>
+<!-- Main Nav End -->
+    
+<!-- Image Slider Start -->
+   <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="hpimg1.jpg" class="d-block w-100" alt="Seema Gujral Women's Wear">
+        </div>
+        <div class="carousel-item">
+            <img src="hpimg2.jpg" class="d-block w-100" alt="Seema Gujral Men's Wear">
+        </div>
+<!-- Add more carousel items as needed -->
     </div>
-    <main>
-        <aside>
-        <ul class="none" >
-            <li> <a href="aboutus.html" > About Us</a></li>
-            <li> <a href="contactus.html" > Contact Us </a></li>
-            <li> <a href="rentinginfo.html" > Renting Information</a></li>
-            <li> <a href="shippinginfo.html" > Shipping Information </a></li>
-            <li> <a href="faq.html" > FAQ </a></li>
-        </ul>
-        </aside>
-        <section class="Contact-form" >
-            <h2> Contact Us </h2>
-            <form action="submit_form.php" method="post" >
-                <lable for="name" > Name: </lable>
-                <input type="text" id="name" name="name" required>
-                
-                <lable for="email" > Email: </lable>
-                <input type="email" id="email" name="email" required>
-                
-                <lable for="message" > Message: </lable>
-                <textarea id="message" name="message" row="4" required> </textarea>
-                
-                <button type="submit" > Submit </button>
-            </form>
-        </section>
-        <section class="contact-info" >
-            <h2> Contact Information </h2>
-            <p> Email: info@enteremailaddress.com</p>
-            <p> Phone: +1 (123) 456-7890 </p>
-            <p> Address: 123 Main Street, New York City, New York </p>
-        </section>
-    </main>
+    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!--Image Slider End -->
+
+<!-- Featured Products Section Start -->
+<section class="container mt-4">
+    <h2 class="text-center mb-4">Featuring Designer: Falguni Shane Peacock</h2>
+
+    <div class="row">
+
+        <!-- Product 1 Carousel -->
+        <div class="col-md-4 product-carousel">
+            <div id="productCarousel1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="112.jpg" class="d-block w-100" alt="Product 1 Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="113.jpg" class="d-block w-100" alt="Product 1 Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="114.jpg" class="d-block w-100" alt="Product 1 Image 2">
+                    </div>
+                    <!-- Add more carousel items for Product 1 as needed -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Product 2 Carousel -->
+        <div class="col-md-4 product-carousel">
+            <div id="productCarousel2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="FSM1.jpg" class="d-block w-100" alt="Product 2 Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="FSM2.jpg" class="d-block w-100" alt="Product 2 Image 2">
+                    </div>
+                     <div class="carousel-item">
+                        <img src="FSM3.jpg" class="d-block w-100" alt="Product 2 Image 2">
+                    </div>
+                    <!-- Add more carousel items for Product 2 as needed -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Product 3 Carousel -->
+        <div class="col-md-4 product-carousel">
+            <div id="productCarousel3" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="FS1.jpg" class="d-block w-100" alt="Product 3 Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="FS2.jpg" class="d-block w-100" alt="Product 3 Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="FS3.jpg" class="d-block w-100" alt="Product 3 Image 2">
+                    </div>
+                    <!-- Add more carousel items for Product 3 as needed -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Featured Products Section End -->   
     
-    <footer>
-        <p> &copy; 2023 Your Luxury Indian Clothing Rental. All rights reserved.</p>
-    </footer>
+<!-- Footer Start -->
+<footer class="bg-dark text-light text-center py-3">
+    <div class="container">
+        <p>&copy; 2023 Rental's Almari. All Rights Reserved.</p>
+        <p>Contact us at <a href="mailto:info@rentalsalmari.com" class="text-light">info@rentalsalmari.com</a></p>
+    </div>
+</footer>
+<!-- Footer End -->
     
-    
-    
-    
-    
-    
-    </body>
+</body>
 </html>
-    
+
