@@ -1,0 +1,60 @@
+body{
+    font-family: 'Kalnia', serif;
+    color: black
+}
+
+.contact-info{
+    font-size: 12px;
+}
+
+.nav-links{
+    font-size: 19px;
+    font-weight: 500;
+    color: #212934 !important;
+}
+
+.nav-link{
+    font-size: 19px;
+    font-weight: 500;
+    color: #212934 !important;
+}
+
+.nav-links:hover{
+    color: #CFA3B1 !important;
+}
+
+.nav-link:hover{
+    color: #CFA3B1 !important;
+}
+
+.nav-items{
+    margin-right: 100px;
+    padding: 5px;
+}
+
+.nav-icon{
+    margin-right: 15px;
+}
+
+/* Slider */
+
+.slider-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider img{
+    width: 100%;
+    height: auto;
+}
+
+/* slider end */
+
+.product-carousel {
+    margin-bottom: 20px;
+}
